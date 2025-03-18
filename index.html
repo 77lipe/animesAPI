@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ま Animes</h1>
+        <nav>
+            <a href="#">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="label">
+            <input type="text" id="input" placeholder="Enter the genre you are looking for. ex: adventure">
+        </section>
+        <section class="button">
+            <button id="btn">Search</button>
+        </section>
+
+        <section class="full-content">
+            <section class="content-genres">
+                <div class="genres">
+                    <h2>Popular Genres →</h2>
+                    <ul id="genre-list">
+                        <ul>
+                            <li>Adventure</li>
+                            <li>Fiction</li>
+                            <li>Romance</li>
+                            <li>Horror</li>
+                            <li>Drama</li>
+                            <li>Comedy</li>
+                        </ul>
+                    </ul>
+                </div>
+            </section>
+            <section class="content-cards">
+                <div class="animes">
+                    <h2>Popular animes →</h2>
+                    <div id="list-animes" class="anime-grid">
+                    
+                        <!-- Animes serão adicionados via JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
