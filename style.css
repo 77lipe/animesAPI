@@ -122,18 +122,15 @@ main {
 /* Animes */
 
 .content-cards{
-    width: 40%;
+    width: 80%;
     height: 80%;
 }
 
-.animes {
-    width: 100%;
+
+#list-animes {
+    padding: 12px;
     height: 100%;
-}
-
-.anime-grid {
-    height: 80%;
-    width: 100%;
+    width: 700px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -147,6 +144,8 @@ main {
     text-align: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
+    width: 40%;
+    height: 100%;
 }
 
 .anime-card:hover {
