@@ -40,31 +40,6 @@ function criarCard(anime) {
     container.appendChild(card)
 }
 
-// function limparTela() {
-//     content.style.display = 'none'
-//     galeria.innerHTML = ''
-//     galeria.style.display = 'grid' 
-// }
-
-// async function exibirAnimes() {
-//     const category = barraPesquisa.value.trim()
-
-//     if (!category) {
-//         alert('Erro na busca')
-//         return
-//     }
-
-//     limparTela()
-
-//     const animes = await pesquisarAnimes(category)
-//     if (animes.length === 0) {
-//         return
-//     }
-
-//     animes.forEach(anime => {
-//         galeria.appendChild(criarCards(anime))
-//     })
-// }
 
 async function preencherFotos() {
     const nomePersonagem = document.getElementById('input').value.trim();

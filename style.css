@@ -24,7 +24,7 @@ header h1 {
 header nav a {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Corpo da página */
@@ -96,7 +96,7 @@ main {
 
 .genres {
     width: 100%;
-    height: 60%;
+    height: 70%;
     padding: 20px;
 }
 
@@ -143,10 +143,10 @@ main {
 }
 .card{
     background-color: #ffff;
-    height: 35%;
-    width: 30%;
+    height: 45%;
+    width: 210px;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 2px solid;
     color: #0000;
     padding: 15px;
@@ -155,6 +155,12 @@ main {
 
 .card h2{
     color: black;
+}
+
+.li , a{
+    color: #ffff;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 /* .anime-card:hover {
